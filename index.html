@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6f8"><title>Phuti, I have a question ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="hearts" id="hearts"></div><main class="app">
+<section class="card active" id="askScreen"><div class="emoji">🌹</div><p class="eyebrow">A tiny question for you...</p><h1>Hey Phuti ❤️</h1><p class="lead">I was wondering if you'd let me steal a little of your time...</p><h2>Would you go on a date with me?</h2><div class="button-zone" id="buttonZone"><button class="btn yes" id="yesBtn">YES ❤️</button><button class="btn no" id="noBtn">NO 😅</button></div><p class="tiny" id="tease">Choose carefully 😌</p></section>
+<section class="card" id="celebrateScreen"><div class="emoji bounce">🥰</div><p class="eyebrow">Best answer ever</p><h1>You just made my day, Phuti ❤️</h1><p class="lead">Now let's find a day that works for you.</p><button class="btn yes wide" id="chooseDateBtn">Choose a date 🌹</button></section>
+<section class="card" id="dateScreen"><div class="emoji">📅</div><p class="eyebrow">Your choice</p><h1>When are you free?</h1><p class="lead">Pick whatever feels comfortable for you.</p><form id="dateForm"><label for="date">Date</label><input type="date" id="date" required><label for="time">What works best?</label><select id="time" required><option value="">Choose a time</option><option>Lunch</option><option>Afternoon</option><option>Early evening</option><option>Dinner</option><option>Surprise me 😌</option></select><label for="note">Anything you'd like to add? <span>(optional)</span></label><textarea id="note" rows="3" maxlength="160" placeholder="e.g. Somewhere relaxed 😊"></textarea><button type="submit" class="btn yes wide">That's my date ❤️</button></form></section>
+<section class="card" id="finalScreen"><div class="emoji bounce">🌹❤️</div><p class="eyebrow">It's a date</p><h1>Perfect, Phuti!</h1><p class="lead" id="summary"></p><div class="final-note">I'll take it from here.<br>Looking forward to seeing you ❤️</div><button class="btn share wide" id="shareBtn">Send me your choice 💌</button><p class="tiny">This opens your phone's share options so you decide how to send it.</p></section>
+<section class="card" id="noScreen"><div class="emoji">😊</div><h1>No worries, Phuti</h1><p class="lead">I had to try 😄. Thanks for answering honestly.</p><p class="final-note">You still get the flower 🌹</p></section>
+</main><script src="script.js"></script></body></html>
